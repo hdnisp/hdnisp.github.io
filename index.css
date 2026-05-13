@@ -1,0 +1,48 @@
+body {
+font-family: -apple-system,BlinkMacSystemFont,sans-serif;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+background-color: #f7f7f7;
+color: #333;
+max-width: 100%;
+margin: auto;
+}
+.main {
+max-width: 700px;
+margin: auto;
+padding: 0em;
+text-align: center;
+}
+
+input{
+  font-size:16px;
+　width:120px;
+}
+
+.red-link{
+  color: red;
+}
+.wk {
+padding: 5px;
+margin: 0px 10px; 
+border: 0px dotted #777; 
+}
+.mkj {
+padding: 20px;
+margin: 0 10px;
+border: 0px dotted #777; 
+border-radius: 0px;
+background-color: #eaeaea;
+}
+.mkj img{
+pointer-events: none;
+}
+
+@media screen and (min-width:768px){
+    /*　画面サイズが768px以上の場合読み込む　*/
+    img {
+    max-width: 100%;
+    height: auto;
+}
+      }
