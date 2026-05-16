@@ -2,7 +2,6 @@ body {
 font-family: -apple-system,BlinkMacSystemFont,sans-serif;
 font-size: 16px;
 line-height: 1.5;
-text-align: center;
 background-color: #f7f7f7;
 color: #333;
 max-width: 100%;
@@ -11,15 +10,8 @@ margin: auto;
 .main {
 max-width: 700px;
 margin: auto;
-padding: 0em;
-text-align: center;
+padding: 1em;
 }
-
-input{
-  font-size:16px;
-　width:120px;
-}
-
 .red-link{
   color: red;
 }
@@ -44,5 +36,31 @@ pointer-events: none;
     img {
     max-width: 100%;
     height: auto;
+}
+}
+@media (max-width: 767px) {
+body {
+max-width: 100%;
+margin: auto;
+}
+.main {
+max-width: 90%;
+margin: auto;
+}
+img{
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+.hd img{
+max-width: 100vw;
+height: auto;
+margin-left: calc(50% - 50vw);
+margin-right: calc(50% - 50vw);
+pointer-events: none;
+}
+iframe {
+width: 90%;
+height: 350px;
 }
       }
