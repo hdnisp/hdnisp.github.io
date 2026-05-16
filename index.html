@@ -26,5 +26,31 @@
 Pass：ゼロ３つ
 </span>
 </div></div>
+  <input type="password" id="pw">
+
+<button onclick="login()">ENTER</button>
+
+<script>
+
+function login() {
+
+  const pw =
+
+    document.getElementById("pw").value;
+
+  if (pw === "ohagi") {
+
+    sessionStorage.setItem("auth", "ok");
+
+    location.href = "main.html";
+
+  } else {
+
+    alert("パスワードが違います");
+
+  }
+
+}
+</script>
 </body>
 </html>
