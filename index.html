@@ -21,36 +21,24 @@
 一次・二次創作／夢漫画<br>
 <strong><span style="color: rgba(255, 82, 82, 1);">一部年齢制限有り</span></strong><br>
 <img src="banner.PNG"><br>
-▲<br>
 <span style="font-size:80%;color:gray;">
-Pass：ゼロ３つ
+Pass：おはぎをローマ字入力<br>
 </span>
-</div></div>
+▼<br>
   <input type="password" id="pw">
-
 <button onclick="login()">ENTER</button>
-
 <script>
-
 function login() {
-
   const pw =
-
     document.getElementById("pw").value;
-
   if (pw === "ohagi") {
-
     sessionStorage.setItem("auth", "ok");
-
     location.href = "main.html";
-
   } else {
-
     alert("パスワードが違います");
-
   }
-
 }
 </script>
+</div></div>
 </body>
 </html>
